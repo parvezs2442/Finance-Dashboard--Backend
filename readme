@@ -1,0 +1,21 @@
+# Finance Dashboard Backend
+
+## Features
+- User Authentication (JWT)
+- Role-Based Access Control
+- Financial Records CRUD
+- Dashboard Analytics
+
+## Roles
+- Viewer: Read only
+- Analyst: View + analytics
+- Admin: Full access
+
+## Setup
+npm install
+npm run dev
+
+## API
+- /api/auth
+- /api/records
+- /api/dashboard
